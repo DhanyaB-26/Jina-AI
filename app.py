@@ -18,4 +18,3 @@ df = pd.read_csv("wiki.csv")
 urls = df['wiki_links']
 for url in urls:
     url_access(url)
-   
